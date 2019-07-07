@@ -15,6 +15,12 @@ class CreateTricksTable extends Migration
     {
         Schema::create('tricks', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('name');
+            $table->json('alts')->nullable();
+            $table->string('definition');
+            $table->string('video')->nullable();
+            $table->bigInteger('rider_id')->nullable();
+            $table->year('year')->nullable();
             $table->timestamps();
         });
     }
