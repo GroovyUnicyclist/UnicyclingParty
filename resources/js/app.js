@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('create-trick', require('./components/CreateTrick.vue').default);
+Vue.component('create-page', require('./components/CreatePage.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

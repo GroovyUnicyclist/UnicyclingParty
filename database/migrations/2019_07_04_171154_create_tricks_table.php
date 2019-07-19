@@ -15,7 +15,7 @@ class CreateTricksTable extends Migration
     {
         Schema::create('tricks', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name');
+            $table->string('name')->unique();
             $table->json('alts')->nullable();
             $table->string('definition');
             $table->string('video')->nullable();

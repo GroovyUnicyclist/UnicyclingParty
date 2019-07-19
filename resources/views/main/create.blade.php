@@ -1,5 +1,5 @@
 @extends('main.layouts.page')
 
 @section('body')
-    <create-trick></create-trick>
+    <create-page></create-page>
 @endsection

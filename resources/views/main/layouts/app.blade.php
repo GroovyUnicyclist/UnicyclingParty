@@ -46,7 +46,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('create-trick') }}">Create New Trick</a>
+                            <a class="nav-link" href="{{ route('create') }}">Create New Page</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('trick') }}">Example Trick Page</a>

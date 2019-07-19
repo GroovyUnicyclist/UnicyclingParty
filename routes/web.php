@@ -44,9 +44,9 @@ Route::domain('65.27.243.42')->group( function() {
 
     Route::get('/guide', 'GuideController@index')->name('guide');
 
-    Route::prefix('tricks')->group( function() {
-        Route::view('/trick', 'main.tricks.trick')->name('trick');
-        Route::get('/create', 'TrickController@create')->name('create-trick');
-    });
+    Route::get('tricks', 'TrickController@index')->name('trick');
+
+    Route::get('/create','PageController@create')->name('create');
+
 });
 

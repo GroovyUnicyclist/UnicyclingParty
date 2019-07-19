@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Create New Trick</h1>
+        <h2>Trick</h2>
         <form action="/tricks">
             <div class="row">
                 <div class="col-md-4">
@@ -18,6 +18,21 @@
                     </div>
                 </div>
                 <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="categories">Categories</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:-5px">
+                        <div class="col-md-12">
+                            <a href="#">
+                                <h5><span class="badge badge-pill badge-secondary">Flips <i class="fas fa-times" style="margin:0.25rem"></i></span></h5>
+                            </a>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-8">
                             <label for="inventor">First Landed By/Invented By</label>
@@ -49,12 +64,14 @@
                             </div>
                         </div>
                     </div>
-                    <div v-if="videoEmbed" style="padding:75% 0 0 0;position:relative;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" :src="videoEmbed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div v-if="videoEmbed" class="row" style="padding: 15px; min-width: 75%; min-height: 20vw; justify-content: center">
+                        <iframe :src="videoEmbed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <button type="button" class="btn btn-primary" @click="troll=true">Submit</button><br><br>
+                    <small v-if="troll" class="text-danger">Soon™</small>
                 </div>
             </div>
         </form>
-        <button type="button" class="btn btn-primary" @click="troll=true">Submit</button><br><br>
-        <small v-if="troll" class="text-danger">Soon™</small>
     </div>
 </template>
 
