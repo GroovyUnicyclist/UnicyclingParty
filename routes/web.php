@@ -35,6 +35,10 @@ Route::prefix('osu')->group( function() {
     // Route::redirect('/home','home');
 
     Route::get('/checkout', 'CheckoutController@index')->name('checkout');
+    
+    Route::view('/join', 'osu.sif')->name('join');
+
+    Route::view('/watch', 'osu.test')->name('watch');
 });
 
 Auth::routes();
@@ -48,5 +52,6 @@ Route::domain('65.27.243.42')->group( function() {
 
     Route::get('/create','PageController@create')->name('create');
 
+    Route::post('/trick','TrickController@store')->name('createTrick');
 });
 

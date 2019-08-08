@@ -28,6 +28,7 @@ class HomeController extends Controller
 
     public function osu()
     {
+        return view('osu.sif');
         return view('osu.home');
     }
 }

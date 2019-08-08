@@ -67,7 +67,9 @@
                     <div v-if="videoEmbed" class="row" style="padding: 15px; min-width: 75%; min-height: 20vw; justify-content: center">
                         <iframe :src="videoEmbed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <button type="button" class="btn btn-primary" @click="troll=true">Submit</button><br><br>
+                    <!-- <button type="submit" class="btn btn-primary" form="">Submit</button> -->
+                    <button type="button" class="btn btn-primary" @click="troll=true">Submit</button>
+                    <br><br>
                     <small v-if="troll" class="text-danger">Soon™</small>
                 </div>
             </div>

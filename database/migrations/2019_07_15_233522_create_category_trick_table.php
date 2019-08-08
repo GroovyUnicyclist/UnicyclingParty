@@ -14,9 +14,9 @@ class CreateCategoryTrickTable extends Migration
     public function up()
     {
         Schema::create('category_trick', function (Blueprint $table) {
-            $table->integer('trick_id');
-            $table->interger('category_id');
-            $table->primary(['post_id', 'tag_id']);
+            $table->bigInteger('trick_id');
+            $table->bigInteger('category_id');
+            $table->primary(['trick_id', 'category_id']);
         });
     }
 
