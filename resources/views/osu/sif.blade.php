@@ -23,35 +23,43 @@
     <h3>Questions?</h3>
     <p>Email <a href="mailto:braun.368@osu.edu">Nick Braun</a> or ask in the GroupMe!</p>
     <hr>
-    <div id="pictures" class="carousel slide" data-ride="carousel">
-
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#pictures" data-slide-to="0" class="active"></li>
-            <li data-target="#pictures" data-slide-to="1"></li>
-            <li data-target="#pictures" data-slide-to="2"></li>
-        </ul>
-      
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="join-carousel" src="/images/Unicycle_Club_Logo_Card_Size.png" alt="1">
+    <div class="row" style="justify-content: center">
+        <div id="pictures" class="carousel slide" data-ride="carousel">
+    
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#pictures" data-slide-to="0" class="active"></li>
+                <li data-target="#pictures" data-slide-to="1"></li>
+                {{-- <li data-target="#pictures" data-slide-to="2"></li> --}}
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="join-carousel" src="/images/EthanLearning.jpg" alt="Learn to Unicycle!">
+                    <div class="carousel-caption">
+                        <label style="padding:0.5rem; background-color:rgba(0, 0, 0, 0.5)">Learn to Unicycle!</label>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="join-carousel" src="/images/Basketball.jpg" alt="Basketball!" rotate="90">
+                    <div class="carousel-caption">
+                        <label style="padding:0.5rem; background-color:rgba(0, 0, 0, 0.5)">Play Basketball!</label>
+                    </div>
+                </div>
+                {{-- <div class="carousel-item">
+                    <img class="join-carousel" src="/images/Unicycle_Club_Logo_Card_Size.png" alt="3">
+                </div> --}}
             </div>
-            <div class="carousel-item">
-                <img class="join-carousel" src="/images/Unicycle_Club_Logo_Card_Size.png" alt="2">
-            </div>
-            <div class="carousel-item">
-                <img class="join-carousel" src="/images/Unicycle_Club_Logo_Card_Size.png" alt="3">
-            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#pictures" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#pictures" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+          
         </div>
-      
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#pictures" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#pictures" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-      
     </div>
 @endsection
