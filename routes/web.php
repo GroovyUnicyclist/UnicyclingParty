@@ -10,33 +10,25 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::domain('osu.unicycling.party')->group( function() {
+Route::domain(/*'osu.'.*/env('APP_URL'))->group( function() {
     Route::get('/', 'HomeController@osu')->name('osu');
 
-    Route::get('/checkout', 'CheckoutController@index')->name('checkout');
+    // Route::get('/checkout', 'CheckoutController@index')->name('checkout');
     
-    Route::view('/join', 'osu.sif')->name('join');
+    // Route::view('/join', 'osu.sif')->name('join');
 });
 
-Route::prefix('osu')->group( function() {
-    Route::get('/', 'HomeController@osu')->name('osu');
+// Auth::routes();
 
-    Route::get('/checkout', 'CheckoutController@index')->name('checkout');
-    
-    Route::view('/join', 'osu.sif')->name('join');
-});
+// Route::domain(env('APP_URL'))->group( function() {
+//     Route::get('/', 'HomeController@index')->name('home');
 
-Auth::routes();
+//     Route::get('/guide', 'GuideController@index')->name('guide');
 
-Route::domain('unicycling.party')->group( function() {
-    Route::get('/', 'HomeController@index')->name('home');
+//     Route::get('tricks', 'TrickController@index')->name('trick');
 
-    Route::get('/guide', 'GuideController@index')->name('guide');
+//     Route::get('/create','PageController@create')->name('create');
 
-    Route::get('tricks', 'TrickController@index')->name('trick');
-
-    Route::get('/create','PageController@create')->name('create');
-
-    Route::post('/trick','TrickController@store')->name('createTrick');
-});
+//     Route::post('/trick','TrickController@store')->name('createTrick');
+// });
 
