@@ -10,40 +10,25 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::domain('osu.unicycle.party')->group( function() {
-//     Route::get('/', 'HomeController@osu')->name('osu');
-
-//     // Route::redirect('/home','home');
-
-//     Route::get('/checkout', 'CheckoutController@index')->name('checkout');
-// });
-
-// Auth::routes();
-
-// Route::domain('unicycle.party')->group( function() {
-//     Route::get('/', 'HomeController@index')->name('home');
-
-//     Route::get('/guide', 'GuideController@index')->name('guide');
-// });
-
-
-// 65.27.243.42
-Route::prefix('osu')->group( function() {
+Route::domain('osu.unicycling.party')->group( function() {
     Route::get('/', 'HomeController@osu')->name('osu');
-
-    // Route::redirect('/home','home');
 
     Route::get('/checkout', 'CheckoutController@index')->name('checkout');
     
     Route::view('/join', 'osu.sif')->name('join');
+});
 
-    Route::view('/watch', 'osu.test')->name('watch');
+Route::prefix('osu')->group( function() {
+    Route::get('/', 'HomeController@osu')->name('osu');
+
+    Route::get('/checkout', 'CheckoutController@index')->name('checkout');
+    
+    Route::view('/join', 'osu.sif')->name('join');
 });
 
 Auth::routes();
 
-Route::domain('65.27.243.42')->group( function() {
+Route::domain('unicycling.party')->group( function() {
     Route::get('/', 'HomeController@index')->name('home');
 
     Route::get('/guide', 'GuideController@index')->name('guide');
