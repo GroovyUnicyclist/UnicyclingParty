@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::domain(/*'osu.'.*/env('APP_URL'))->group( function() {
+Route::domain('osu.'.env('APP_URL'))->group( function() {
     Route::get('/', 'HomeController@osu')->name('osu');
 
     // Route::get('/checkout', 'CheckoutController@index')->name('checkout');
@@ -20,15 +20,17 @@ Route::domain(/*'osu.'.*/env('APP_URL'))->group( function() {
 
 // Auth::routes();
 
-// Route::domain(env('APP_URL'))->group( function() {
-//     Route::get('/', 'HomeController@index')->name('home');
+Route::domain(env('APP_URL'))->group( function() {
+    Route::get('/', 'HomeController@osu')->name('osu');
 
-//     Route::get('/guide', 'GuideController@index')->name('guide');
+    // Route::get('/', 'HomeController@index')->name('home');
 
-//     Route::get('tricks', 'TrickController@index')->name('trick');
+    // Route::get('/guide', 'GuideController@index')->name('guide');
 
-//     Route::get('/create','PageController@create')->name('create');
+    // Route::get('tricks', 'TrickController@index')->name('trick');
 
-//     Route::post('/trick','TrickController@store')->name('createTrick');
-// });
+    // Route::get('/create','PageController@create')->name('create');
+
+    // Route::post('/trick','TrickController@store')->name('createTrick');
+});
 
