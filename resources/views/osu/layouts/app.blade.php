@@ -41,7 +41,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                {{-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
 
@@ -49,9 +49,6 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('checkout') }}">Checkout</a>
-                        </li>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -82,7 +79,7 @@
                         <li class="nav-item site-switch">
                             <a class="nav-link" href="{{ route('home') }}">Main Site</a>
                         </li>
-                    </ul> --}}
+                    </ul>
                 </div>
             </div>
         </nav>

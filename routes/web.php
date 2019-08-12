@@ -12,20 +12,20 @@
 */
 Route::domain('osu.'.env('APP_URL'))->group( function() {
     Route::get('/', 'HomeController@osu')->name('osu');
-
-    // Route::get('/checkout', 'CheckoutController@index')->name('checkout');
     
-    // Route::view('/join', 'osu.sif')->name('join');
+    Route::view('/join', 'osu.sif')->name('join');
 });
 
-// Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::domain(env('APP_URL'))->group( function() {
-    Route::get('/', 'HomeController@osu')->name('osu');
+    // Route::get('/', 'HomeController@osu')->name('osu');
 
-    // Route::get('/', 'HomeController@index')->name('home');
+    Route::get('/', 'HomeController@index')->name('home');
 
-    // Route::get('/guide', 'GuideController@index')->name('guide');
+    Route::get('/guide', 'GuideController@index')->name('guide');
+
+    Route::view('/faq', 'main.faq')->name('faq');
 
     // Route::get('tricks', 'TrickController@index')->name('trick');
 

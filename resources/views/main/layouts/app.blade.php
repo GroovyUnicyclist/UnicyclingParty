@@ -45,11 +45,17 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ route('create') }}">Create New Page</a>
+                        </li> --}}
+                        {{-- <li class="nav-item">
+                            <a class="nav-link" href="{{ route('trick') }}">Example Trick Page</a>
+                        </li> --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('faq') }}">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('trick') }}">Example Trick Page</a>
+                            <a class="nav-link" href="{{ route('guide') }}">Guide</a>
                         </li>
                         <!-- Authentication Links -->
                         @guest
