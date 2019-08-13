@@ -10,4 +10,9 @@ class GuideController extends Controller
     {
         return view('main.guide.guide');
     }
+
+    public function unischool()
+    {
+        return view('main.guide.unischool');
+    }
 }

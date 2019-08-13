@@ -57,6 +57,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('guide') }}">Guide</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
+                        </li>
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
@@ -99,6 +102,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
-    
+
 </body>
 </html>
