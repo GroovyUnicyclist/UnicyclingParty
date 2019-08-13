@@ -29,7 +29,7 @@ Route::domain(env('APP_URL'))->group( function() {
 
     Route::get('/unischool', 'GuideController@unischool')->name('unischool');
 
-    Route::view('/feedback', 'FeedbackController@index')->name('feedback');
+    Route::get('/feedback', 'FeedbackController@index')->name('feedback');
 
     Route::post('/feedback', 'FeedbackController@store')->name('submit-feedback');
 
