@@ -19,7 +19,7 @@
                         <b>To prevent injury, do not try to stay on the unicycle if you're likely to fall.</b> If you're about to fall off, focus on landing on your feet. Let the unicycle roll away from you and jump or step off the unicycle.
                     </li>
                     <li>
-                        Find a wall or a fence to lean against.
+                        Find a wall or a fence to hold onto.
                     </li>
                     <li>
                         Place your first foot on the back pedal, somewhere within the region shown here (try to go closer to the 6:00 position when you first start so you don't hit your shins with the other pedal):<br>
@@ -52,9 +52,9 @@
                 </ul>
                 I recommend Discord as I own the Discord server myself, and will respond fairly quickly if you need help. However, it can be hard to get used to so go ahead and use whatever platform you're most comfortable with!
             </p>
-            <p>
-                You may also <a href="{{ route('feedback') }}">send me a message directly</a>.
-            </p>
+            {{--  <p>
+                You may also <a href="{{ route('feedback') }}">send me a message directly.</a>
+            </p>  --}}
         </div>
     </div>
 @endsection

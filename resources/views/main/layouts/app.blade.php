@@ -57,9 +57,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('guide') }}">Guide</a>
                         </li>
-                        <li class="nav-item">
+                        {{--  <li class="nav-item">
                             <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
-                        </li>
+                        </li>  --}}
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
