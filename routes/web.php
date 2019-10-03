@@ -14,6 +14,8 @@ Route::domain('osu.'.env('APP_URL'))->group( function() {
     Route::get('/', 'HomeController@osu')->name('osu');
 
     Route::view('/join', 'osu.sif')->name('join');
+
+    Route::view('/Put/my/meme/in/Rob', 'osu.meme');
 });
 
 Auth::routes(['register' => false]);
