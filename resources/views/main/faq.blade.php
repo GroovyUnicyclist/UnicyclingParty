@@ -8,7 +8,7 @@
                 <dt>I'm new to unicycling, where should I start?</dt>
                 <dd>
                     <p>
-                        Well the first thing you'll need to do is find a unicycle! It's recommended that you find a cheap one on ebay or at a garage sale just to learn on, but if you've got a little bit more money to spend, check out <a href="unicycle.com">unicycle.com</a> and consider choosing a unicycle appropriate to your chosen <a href="#disciplines">discipline</a>.
+                        Well the first thing you'll need to do is find a unicycle! It's recommended that you find a cheap one on ebay or at a garage sale just to learn on, but if you've got a little bit more money to spend, check out <a href="https://unicycle.com">unicycle.com</a> and consider choosing a unicycle appropriate to your chosen <a href="#disciplines">discipline</a>.
                     </p>
                     <p>
                         Once you've got your unicycle, check out the <a href="{{ route('guide') }}">guide</a> to begin learning how to ride!
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="card" style="border:none">
                             <a class="card-header" data-toggle="collapse" href="#muni">
                                 Muni
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="card" style="border:none">
                             <a class="card-header collapsed last" data-toggle="collapse" href="#urban">
                                 Urban

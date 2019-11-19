@@ -3,23 +3,63 @@
 @section('body')
     <h1>Eli Brill's Unicycle School</h1>
     <hr>
+    <p>Work in Progress</p>
     <div class="row">
         <div class="col-lg-12">
-            <img src="/images/Skill_Tree.PNG" alt="Skill Tree" style="width:100%">
-
-            {{--  <p>
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ridingAUnicycle">
-                    Riding a Unicycle
-                </button>
-            </p>  --}}
+            <figure id="projectsvg">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080" preserveAspectRatio="xMinYMin meet" >
+                    <!-- set your background image -->
+                    <image width="1920" height="1080" xlink:href="/images/Skill_Tree.PNG" />
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="#" data-toggle="modal" data-target="#ridingAUnicycle">>
+                            <rect x="765" y="958" opacity="0.2" fill="#FFFFFF" width="220" height="83"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="https://example.com/link2.html">
+                            {{--  <text x="1230.7" y="952" font-size="20">Second zone</text>  --}}
+                            <rect x="764" y="808" opacity="0.2" fill="#FFFFFF" width="221" height="83"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="https://example.com/link2.html">
+                            <rect x="764" y="660" opacity="0.2" fill="#FFFFFF" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="https://example.com/link2.html">
+                            <rect x="504" y="660" opacity="0.2" fill="#FFFFFF" width="220" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="https://example.com/link2.html">
+                            <rect x="255" y="660" opacity="0.2" fill="#FFFFFF" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="https://example.com/link2.html">
+                            <rect x="1010" y="660" opacity="0.2" fill="#FFFFFF" width="222" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="https://example.com/link2.html">
+                            <rect x="1265" y="660" opacity="0.2" fill="#FFFFFF" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="https://example.com/link2.html">
+                            <rect x="376" y="537" opacity="0.2" fill="#FFFFFF" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="https://example.com/link2.html">
+                            <rect x="1011" y="414" opacity="0.2" fill="#FFFFFF" width="220" height="82"></rect>
+                        </a>
+                    </g>
+                </svg>
+            </figure>
         </div>
     </div>
-    {{--  <div class="row">
-        <div class="col-md-12">
-            <h3>Work in Progress</h3>
-            <p>This will soon be an interactive page used to track your progress on the skill tree. For now, check out the <a href="https://discord.gg/RXgdcTw">Unicycling Discord Server's</a> channels dedicated to Unischool to get help and track your progression.</p>
-        </div>
-    </div>  --}}
 @endsection
 
 @section('modals')
@@ -35,6 +75,8 @@
 
             <!-- Modal body -->
             <div class="modal-body">
+                <h4>Video</h4>
+
                 <h4>Homework</h4>
                 <div class="form-check">
                     <label class="form-check-label">
@@ -66,8 +108,4 @@
         </div>
     </div>
 </div>
-@endsection
-
-@section('style')
-
 @endsection
