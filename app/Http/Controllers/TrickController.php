@@ -14,7 +14,7 @@ class TrickController extends Controller
      */
     public function index()
     {
-        //
+        return view('main.tricks.trick');
     }
 
     /**

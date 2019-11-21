@@ -10,43 +10,37 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::domain('osu.unicycle.party')->group( function() {
-//     Route::get('/', 'HomeController@osu')->name('osu');
-
-//     // Route::redirect('/home','home');
-
-//     Route::get('/checkout', 'CheckoutController@index')->name('checkout');
-// });
-
-// Auth::routes();
-
-// Route::domain('unicycle.party')->group( function() {
-//     Route::get('/', 'HomeController@index')->name('home');
-
-//     Route::get('/guide', 'GuideController@index')->name('guide');
-// });
-
-
-// 65.27.243.42
-Route::prefix('osu')->group( function() {
+Route::domain('osu.'.env('APP_URL'))->group( function() {
     Route::get('/', 'HomeController@osu')->name('osu');
 
-    // Route::redirect('/home','home');
+    Route::view('/join', 'osu.sif')->name('join');
 
-    Route::get('/checkout', 'CheckoutController@index')->name('checkout');
+    Route::view('/Put/my/meme/in/Rob', 'osu.meme');
 });
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
-Route::domain('65.27.243.42')->group( function() {
+Route::domain(env('APP_URL'))->group( function() {
+    // Route::get('/', 'HomeController@osu')->name('osu');
+
     Route::get('/', 'HomeController@index')->name('home');
 
     Route::get('/guide', 'GuideController@index')->name('guide');
 
-    Route::prefix('tricks')->group( function() {
-        // Route::get('{trick}', 'TrickListController@trick');
-        Route::view('/trick', 'main.tricks.trick')->name('trick');
-    });
+    Route::view('/faq', 'main.faq')->name('faq');
+
+    Route::get('/unischool', 'GuideController@unischool')->name('unischool');
+
+    Route::get('/feedback', 'FeedbackController@index')->name('feedback');
+
+    Route::post('/feedback', 'FeedbackController@store')->name('submit-feedback');
+
+    Route::post('/heart', 'FeedbackController@love')->name('send-heart');
+
+    // Route::get('tricks', 'TrickController@index')->name('trick');
+
+    // Route::get('/create','PageController@create')->name('create');
+
+    // Route::post('/trick','TrickController@store')->name('createTrick');
 });
 

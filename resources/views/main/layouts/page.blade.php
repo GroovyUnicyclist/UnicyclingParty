@@ -7,7 +7,11 @@
                     <div class="card-body p-5">
                         @yield('body')
                     </div>
-                    <div class="card-footer">
+                    <div class="card-footer" style="text-align:center">
+                        <form action="{{ route('send-heart') }}" method="POST">
+                                @csrf
+                                <button type="submit" class="btn btn-danger">Send love to the discord server!</button>
+                            </form>
                         {{-- <div class="row justify-content-center">
                             <img src="/images/Unicycle_Club_Logo_Official_Square.png" style="height:100px;" alt="Logo">
                         </div>
@@ -26,4 +30,5 @@
             </div>
         </div>
     </div>
+    @yield('modals')
 @endsection

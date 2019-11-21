@@ -9,9 +9,6 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -48,9 +45,20 @@
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                        
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
+                            <a class="nav-link" href="{{ route('create') }}">Create New Page</a>
+                        </li> --}}
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ route('trick') }}">Example Trick Page</a>
+                        </li> --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('faq') }}">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('guide') }}">Guide</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('feedback') }}">Feedback</a>
                         </li>
                         <!-- Authentication Links -->
                         @guest
@@ -91,5 +99,9 @@
             @yield('content')
         </main>
     </div>
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}"></script>
+
 </body>
 </html>
