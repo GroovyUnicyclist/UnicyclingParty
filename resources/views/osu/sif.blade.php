@@ -5,7 +5,7 @@
         <img src="/images/Unicycle_Club_Logo_Official.png" alt="Logo" style="max-height:250px;">
     </div>
     <hr>
-    <div class="row justify-content-center">    
+    <div class="row justify-content-center">
         <h1 class="h1-join">Interested in joining Unicycle Club?</h1>
     </div>
     <a href="https://goo.gl/forms/1C36aOLqBBXz18U92" class="btn btn-scarlet btn-join">Join the Mailing List or GroupMe!</a>
@@ -25,14 +25,14 @@
     <hr>
     <div class="row" style="justify-content: center">
         <div id="pictures" class="carousel slide" data-ride="carousel">
-    
+
             <!-- Indicators -->
             <ul class="carousel-indicators">
                 <li data-target="#pictures" data-slide-to="0" class="active"></li>
                 <li data-target="#pictures" data-slide-to="1"></li>
-                {{-- <li data-target="#pictures" data-slide-to="2"></li> --}}
+                <li data-target="#pictures" data-slide-to="2"></li>
             </ul>
-          
+
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -47,11 +47,14 @@
                         <label style="padding:0.5rem; background-color:rgba(0, 0, 0, 0.5)">Play Basketball!</label>
                     </div>
                 </div>
-                {{-- <div class="carousel-item">
-                    <img class="join-carousel" src="/images/Unicycle_Club_Logo_Card_Size.png" alt="3">
-                </div> --}}
+                <div class="carousel-item">
+                    <img class="join-carousel" src="/images/ClubMembers.jpg" alt="Our Members!" rotate="90">
+                    <div class="carousel-caption">
+                        <label style="padding:0.5rem; background-color:rgba(0, 0, 0, 0.5)">Make friends!</label>
+                    </div>
+                </div>
             </div>
-          
+
             <!-- Left and right controls -->
             <a class="carousel-control-prev" href="#pictures" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
@@ -59,7 +62,6 @@
             <a class="carousel-control-next" href="#pictures" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
             </a>
-          
         </div>
     </div>
 @endsection

@@ -10,49 +10,89 @@
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080" preserveAspectRatio="xMinYMin meet" >
                     <!-- set your background image -->
                     <image width="1920" height="1080" xlink:href="/images/Skill_Tree.PNG" />
-                    <g class="hover_group" opacity="1">
+                    <g class="hover_group" opacity="0">
                         <a xlink:href="#" data-toggle="modal" data-target="#rideAUnicycle">
-                            <rect x="765" y="958" opacity="0.4" fill="#0099ff" width="220" height="83"></rect>
+                            <rect x="765" y="958" width="220" height="83"></rect>
                         </a>
                     </g>
-                    <g class="hover_group" opacity="1">
+                    <g class="hover_group" opacity="0">
                         <a xlink:href="#" data-toggle="modal" data-target="#gettingComfortable">>
-                            <rect x="764" y="808" opacity="0.4" fill="#0099ff" width="221" height="83"></rect>
+                            <rect x="764" y="808" width="221" height="83"></rect>
                         </a>
                     </g>
-                    <g class="hover_group" opacity="1">
+                    <g class="hover_group" opacity="0">
                         <a xlink:href="#" data-toggle="modal" data-target="#Twist180">>
-                            <rect x="764" y="660" opacity="0.4" fill="#0099ff" width="221" height="82"></rect>
+                            <rect x="764" y="660" width="221" height="82"></rect>
                         </a>
                     </g>
-                    <g class="hover_group" opacity="1">
+                    <g class="hover_group" opacity="0">
                         <a xlink:href="#" data-toggle="modal" data-target="#Unispin180">>
-                            <rect x="504" y="660" opacity="0.4" fill="#0099ff" width="220" height="82"></rect>
+                            <rect x="504" y="660" width="220" height="82"></rect>
                         </a>
                     </g>
-                    <g class="hover_group" opacity="1">
+                    <g class="hover_group" opacity="0">
                         <a xlink:href="#" data-toggle="modal" data-target="#crankflip">>
-                            <rect x="255" y="660" opacity="0.4" fill="#0099ff" width="221" height="82"></rect>
+                            <rect x="255" y="660" width="221" height="82"></rect>
                         </a>
                     </g>
-                    <g class="hover_group" opacity="1">
+                    <g class="hover_group" opacity="0">
                         <a xlink:href="#" data-toggle="modal" data-target="#crankgrab">>
-                            <rect x="1010" y="660" opacity="0.4" fill="#0099ff" width="222" height="82"></rect>
+                            <rect x="1010" y="660" width="222" height="82"></rect>
                         </a>
                     </g>
-                    <g class="hover_group" opacity="1">
+                    <g class="hover_group" opacity="0">
                         <a xlink:href="#" data-toggle="modal" data-target="#gettingMoreComfortable">>
-                            <rect x="1265" y="660" opacity="0.4" fill="#0099ff" width="221" height="82"></rect>
+                            <rect x="1265" y="660" width="221" height="82"></rect>
                         </a>
                     </g>
-                    <g class="hover_group" opacity="1">
+                    <g class="hover_group" opacity="0">
                         <a xlink:href="#" data-toggle="modal" data-target="#hickflipAndOutflip">>
-                            <rect x="376" y="537" opacity="0.4" fill="#0099ff" width="221" height="82"></rect>
+                            <rect x="376" y="537" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="0">
+                        <a xlink:href="#" data-toggle="modal" data-target="#grinds">>
+                            <rect x="1011" y="414" width="220" height="82"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#grinds">>
-                            <rect x="1011" y="414" opacity="0.4" fill="#0099ff" width="220" height="82"></rect>
+                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
+                            <rect x="255" y="412" opacity="0.5" fill="#000000" width="220" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
+                            <rect x="508" y="412" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
+                            <rect x="758" y="412" opacity="0.5" fill="#000000" width="222" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
+                            <rect x="381" y="241" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
+                            <rect x="255" y="39" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
+                            <rect x="508" y="39" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
+                            <rect x="758" y="40" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="1">
+                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
+                            <rect x="1265" y="40" opacity="0.5" fill="#000000" width="221" height="82"></rect>
                         </a>
                     </g>
                 </svg>
@@ -468,6 +508,43 @@
                 <div class="form-check">
                     <label class="form-check-label">
                         <input type="checkbox" class="form-check-input" name="streetUniX" id="streetUniX">Check out <a target="_blank" rel="noopener noreferrer" href="https://daffodil.itch.io/street-uni-x">Steet Uni X</a>.
+                    </label>
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="comingSoon">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Coming Soon</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h4>Video</h4>
+                <p>
+                    Check out the Unischool playlist here:
+                    <div class="vid-container">
+                        <iframe src="https://www.youtube.com/embed/LUNv6B6JBJ8?listType=playlist&list=PLdKARu4d6vwXYhdoLgOQNKOfvj8NVhnMa"
+                        frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+                <h4>Homework</h4>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="comingSoon" id="comingSoon" disabled>Coming soon...
                     </label>
                 </div>
             </div>
