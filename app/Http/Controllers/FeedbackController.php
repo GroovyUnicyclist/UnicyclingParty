@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 use Spatie\WebhookServer\WebhookCall;
 
 class FeedbackController extends Controller
@@ -29,5 +30,17 @@ class FeedbackController extends Controller
             ->useSecret('sign-using-this-secret')
             ->dispatch();
         return redirect(route('feedback'));
+    }
+
+    public function love()
+    {
+        WebhookCall::create()
+            ->url('https://canary.discordapp.com/api/webhooks/646941584750805022/ENsVqmFs_AoRtwtOAyckweeZS-KJI71nZ0r7silcjNGVXymYvJfmp6T5WqB3-aSl4zB8')
+            ->payload([
+                'content' => "Someone sent a :heart: from unicycling.party!"
+            ])
+            ->useSecret('sign-using-this-secret')
+            ->dispatch();
+            return Redirect::back()->with('message','Heart received!');
     }
 }

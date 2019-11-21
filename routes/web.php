@@ -33,7 +33,9 @@ Route::domain(env('APP_URL'))->group( function() {
 
     Route::get('/feedback', 'FeedbackController@index')->name('feedback');
 
-    // Route::post('/feedback', 'FeedbackController@store')->name('submit-feedback');
+    Route::post('/feedback', 'FeedbackController@store')->name('submit-feedback');
+
+    Route::post('/heart', 'FeedbackController@love')->name('send-heart');
 
     // Route::get('tricks', 'TrickController@index')->name('trick');
 
