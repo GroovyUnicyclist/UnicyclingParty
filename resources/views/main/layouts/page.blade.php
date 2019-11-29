@@ -7,11 +7,16 @@
                     <div class="card-body p-5">
                         @yield('body')
                     </div>
-                    <div class="card-footer" style="text-align:center">
-                        <form action="{{ route('send-heart') }}" method="POST">
+                    <div class="card-footer">
+                        <div class="row justify-content-center">
+                            <form action="{{ route('send-heart') }}" method="POST">
                                 @csrf
-                                <button type="submit" class="btn btn-danger">Send love to the discord server!</button>
+                                <button type="submit" class="btn btn-danger" style="height:100%">Send a ❤️ to the discord server!</button>
                             </form>
+                            <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/8BAb7Cf" class="btn btn-dark" style="background-color:#7289DA; border-color:#7289DA; margin-left:5px; display: inline-flex; align-items: center; ">
+                                <i class="fab fa-discord fa-2x"></i><span style="margin-left:5px">Join the Discord Server!</span>
+                            </a>
+                        </div>
                         {{-- <div class="row justify-content-center">
                             <img src="/images/Unicycle_Club_Logo_Official_Square.png" style="height:100px;" alt="Logo">
                         </div>
