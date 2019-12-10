@@ -35,18 +35,8 @@ class FeedbackController extends Controller
 
     public function love(Request $request)
     {
-        // Test
-        // WebhookCall::create()
-        //     ->url('https://canary.discordapp.com/api/webhooks/610914097298669580/f2rNs2AjDZ-9eYqmtlOUMdIakw7CrIxCkoFEoQoXpAMnP43IxOpFl2I52l0t7M537b4h')
-        //     ->payload([
-        //         'content' => "Someone sent a :heart: from unicycling.party!"
-        //     ])
-        //     ->useSecret('sign-using-this-secret')
-        //     ->dispatch();
-
-        // General
         WebhookCall::create()
-            ->url('https://canary.discordapp.com/api/webhooks/646941584750805022/ENsVqmFs_AoRtwtOAyckweeZS-KJI71nZ0r7silcjNGVXymYvJfmp6T5WqB3-aSl4zB8')
+            ->url(env('DISCORD_WEBHOOK_URL'))
             ->payload([
                 'content' => "Someone sent a :heart: from unicycling.party!"
             ])
