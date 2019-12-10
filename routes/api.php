@@ -16,3 +16,5 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('heart', 'FeedbackController@love')->middleware('throttle:1,5')->name('send-heart');
