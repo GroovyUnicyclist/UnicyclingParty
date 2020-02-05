@@ -17,7 +17,7 @@
     <h3>Where</h3>
     <p>Lincoln Tower Park Tennis/Basketball Courts (Just outside the RPAC). Join the mailing list to get updates in case of inclement weather.</p>
     <h3>When</h3>
-    <p>Unicycle Club meets <b>every Sunday from 2-4pm.</b> You can come late or leave early if you want as well!</p>
+    <p>Unicycle Club meets <b>every Saturday from 2-4pm.</b> You can come late or leave early if you want as well!</p>
     <h3>Why</h3>
     <p>Along with being a great form of exercise, unicycling is lots of fun, and once you learn how to unicycle, you will feel good having learned a new skill. It's great exercise for the mind and the body!</p>
     <h3>Questions?</h3>
