@@ -52,9 +52,12 @@
                 </ul>
                 I recommend Discord as I own the Discord server myself, and will respond fairly quickly if you need help. However, it can be hard to get used to so go ahead and use whatever platform you're most comfortable with!
             </p>
-            {{--  <p>
+            <p>
                 You may also <a href="{{ route('feedback') }}">send me a message directly.</a>
-            </p>  --}}
+            </p>
+            <p>
+                <rad-easter-egg></rad-easter-egg>
+            </p>
         </div>
     </div>
 @endsection

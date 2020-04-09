@@ -37,6 +37,14 @@ Route::domain(env('APP_URL'))->group( function() {
 
     Route::post('/heart', 'FeedbackController@love')->middleware('throttle:6,1')->name('send-heart');
 
+    Route::get('/my-captcha', 'FeedbackController@myCaptcha')->name('myCaptcha');
+
+    Route::post('/my-captcha', 'FeedbackController@myCaptchaPost')->name('myCaptcha.post');
+
+    Route::get('/refresh_captcha', 'FeedbackController@refreshCaptcha')->name('refresh_captcha');
+
+    Route::view('/rad', 'main.guide.rad')->name('rad');
+
     // Route::get('tricks', 'TrickController@index')->name('trick');
 
     // Route::get('/create','PageController@create')->name('create');
