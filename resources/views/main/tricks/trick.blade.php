@@ -1,6 +1,7 @@
 @extends('main.layouts.page')
 
 @section('body')
+    {{-- <trick :trick="jump"></trick> --}}
     <h1>Trick</h1>
     <hr>
     <div class="row">
@@ -8,7 +9,6 @@
             <p>
                 Content
             </p>
-            {{-- <trick :trick="jump"></trick> --}}
             <small>
                 Note: this trick is very hard
             </small>

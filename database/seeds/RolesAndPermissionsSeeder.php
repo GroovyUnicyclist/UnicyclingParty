@@ -15,25 +15,18 @@ class RolesAndPermissionsSeeder extends Seeder
     {
         app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
 
-        Permission::create(['name' => 'assign unis']);
-        Permission::create(['name' => 'create unis']);
-        Permission::create(['name' => 'claim unis']);
+        Permission::create(['name' => 'create tricks']);
+        Permission::create(['name' => 'delete tricks']);
+        Permission::create(['name' => 'edit tricks']);
+        Permission::create(['name' => 'assign roles']);
 
-        $role = Role::create(['name' => 'site admin'])
+        $role = Role::create(['name' => 'admin'])
             ->givePermissionTo(Permission::all());
-
-        /**** Club Specific Roles ****/
-        $role = Role::create(['name' => 'osunicycle admin'])
-            ->givePermissionTo(['claim unis', 'assign unis', 'create unis']);
-
-        $role = Role::create(['name' => 'osunicycle manager'])
-            ->givePermissionTo(['claim unis', 'assign unis']);
-
-        $role = Role::create(['name' => 'osunicycle member'])
-            ->givePermissionTo(['claim unis']);
-        /**** ------------------ ****/
-
-        $role = Role::create(['name' => 'site member']);
+        $role = Role::create(['name' => 'moderator'])
+            ->givePermissionTo('delete tricks');
+        $role = Role::create(['name' => 'contributor'])
+            ->givePermissionTo('create tricks' ,'edit tricks');
+        $role = Role::create(['name' => 'member']);
         $role = Role::create(['name' => 'guest']);
     }
 }

@@ -71,6 +71,7 @@
                     <button type="button" class="btn btn-primary" @click="troll=true">Submit</button>
                     <br><br>
                     <small v-if="troll" class="text-danger">Soon™</small>
+                    <small v-if="edit" class="text-danger">Editing</small>
                 </div>
             </div>
         </form>
@@ -146,6 +147,12 @@
                 this.checkAlts()
             }
         },
+        props: {
+            edit: {
+                type: Boolean,
+                default: false
+            }
+        }
     }
 </script>
 

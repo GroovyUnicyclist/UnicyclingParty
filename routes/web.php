@@ -24,8 +24,9 @@
 // Route::domain('unicycle.party')->group( function() {
 //     Route::get('/', 'HomeController@index')->name('home');
 
-//     Route::get('/guide', 'GuideController@index')->name('guide');
-// });
+    Route::view('/ilyMolly', 'main.vday')->name('vday');
+
+    Route::get('/guide', 'GuideController@index')->name('guide');
 
 
 // 65.27.243.42
@@ -35,7 +36,7 @@ Route::prefix('osu')->group( function() {
     // Route::redirect('/home','home');
 
     Route::get('/checkout', 'CheckoutController@index')->name('checkout');
-    
+
     Route::view('/join', 'osu.sif')->name('join');
 
     Route::view('/watch', 'osu.test')->name('watch');
