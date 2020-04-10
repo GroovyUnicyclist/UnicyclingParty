@@ -35,7 +35,7 @@ Route::domain(env('APP_URL'))->group( function() {
 
     Route::post('/feedback', 'FeedbackController@store')->name('submit-feedback');
 
-    Route::post('/heart', 'FeedbackController@love')->middleware('throttle:6,1')->name('send-heart');
+    Route::post('/heart', 'FeedbackController@love')->middleware('throttle:1,5')->name('send-heart');
 
     Route::get('/my-captcha', 'FeedbackController@myCaptcha')->name('myCaptcha');
 
