@@ -80,7 +80,7 @@
 @section('style')
 <style>
     body {
-        font-family:cursive;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
     }
     .card {
         margin-bottom: 30px
