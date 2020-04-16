@@ -25,7 +25,7 @@ class FeedbackController extends Controller
         ['captcha.captcha'=>'Invalid captcha code.']);
         request()->validate(['captcha.captcha'=>'Invalid captcha code.']);
         WebhookCall::create()
-            ->url('https://discordapp.com/api/webhooks/610914097298669580/f2rNs2AjDZ-9eYqmtlOUMdIakw7CrIxCkoFEoQoXpAMnP43IxOpFl2I52l0t7M537b4h')
+            ->url(env('DISCORD_FEEDBACK_WEBHOOK_URL'))
             ->payload([
                 'embeds' => Array([
                     "title" => "New feedback from unicycling.party",
@@ -43,7 +43,7 @@ class FeedbackController extends Controller
     public function love(Request $request)
     {
         WebhookCall::create()
-            ->url(env('DISCORD_WEBHOOK_URL'))
+            ->url(env('DISCORD_HEART_WEBHOOK_URL'))
             ->payload([
                 'content' => "Someone sent a :heart: from unicycling.party!"
             ])
