@@ -107,3 +107,7 @@ a {
 a:hover {
     color: #960000;
 }
+
+.clickable {
+    cursor: pointer;
+}

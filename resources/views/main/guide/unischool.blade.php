@@ -3,96 +3,97 @@
 @section('body')
     <h1>Eli Brill's Unicycle School</h1>
     <hr>
-    <p>Work in Progress</p>
+    <p>Welcome to Eli Brill's Unicycle School! Soon you will be able to use this page to save your progress as you complete the homework for each video in this series. You can also join the <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/8BAb7Cf">Unicycling Discord Server</a> to get help homework help and submit videos of yourself completing them in order to gain recognition for completing each homework assignment!</p>
+    <p>Be sure to <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCgHpSZa5KBTj_GK1fpsmK1w?sub_confirmation=1"> subscribe to Eli</a> and <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?list=PLdKARu4d6vwXYhdoLgOQNKOfvj8NVhnMa&v=LUNv6B6JBJ8">check out the full series</a>!</p>
     <div class="row">
         <div class="col-lg-12">
             <figure id="projectsvg">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080" preserveAspectRatio="xMinYMin meet" >
                     <!-- set your background image -->
-                    <image width="1920" height="1080" xlink:href="/images/Skill_Tree.PNG" />
+                    <image width="1920" height="1080" xlink:href="/images/Skill_Tree.png" />
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#rideAUnicycle">
-                            <rect x="765" y="958" width="220" height="83"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#rideAUnicycle">
+                            <rect x="638" y="949" width="217" height="79"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#gettingComfortable">>
-                            <rect x="764" y="808" width="221" height="83"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#gettingComfortable">
+                            <rect x="638" y="802" width="216" height="79"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#Twist180">>
-                            <rect x="764" y="660" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#twist180">
+                            <rect x="638" y="656" width="216" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#Unispin180">>
-                            <rect x="504" y="660" width="220" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#unispin180">
+                            <rect x="380" y="656" width="216" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#crankflip">>
-                            <rect x="255" y="660" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#crankflip">
+                            <rect x="134" y="656" width="216" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#crankgrab">>
-                            <rect x="1010" y="660" width="222" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#crankgrab">
+                            <rect x="882" y="656" width="217" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#gettingMoreComfortable">>
-                            <rect x="1265" y="660" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#gettingMoreComfortable">
+                            <rect x="1134" y="656" width="216" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#hickflipAndOutflip">>
-                            <rect x="376" y="537" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#hickflipAndOutflip">
+                            <rect x="254" y="534" width="215" height="79"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="0">
-                        <a xlink:href="#" data-toggle="modal" data-target="#grinds">>
-                            <rect x="1011" y="414" width="220" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#grinds">
+                            <rect x="882" y="414" width="216" height="78"></rect>
+                        </a>
+                    </g>
+                    <g class="hover_group" opacity="0">
+                        <a class="clickable" data-toggle="modal" data-target="#snappyFlips">
+                            <rect x="121" y="411" width="217" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
-                            <rect x="255" y="412" opacity="0.5" fill="#000000" width="220" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#comingSoon">
+                            <rect x="384" y="411" opacity="0.5" fill="#000000" width="216" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
-                            <rect x="508" y="412" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#comingSoon">
+                            <rect x="636" y="412" opacity="0.5" fill="#000000" width="216" height="77"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
-                            <rect x="758" y="412" opacity="0.5" fill="#000000" width="222" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#comingSoon">
+                            <rect x="122" y="243" opacity="0.5" fill="#000000" width="215" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
-                            <rect x="381" y="241" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#comingSoon">
+                            <rect x="391" y="247" opacity="0.5" fill="#000000" width="215" height="77"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
-                            <rect x="255" y="39" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#comingSoon">
+                            <rect x="384" y="44" opacity="0.5" fill="#000000" width="216" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
-                            <rect x="508" y="39" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#comingSoon">
+                            <rect x="632" y="45" opacity="0.5" fill="#000000" width="216" height="78"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
-                            <rect x="758" y="40" opacity="0.5" fill="#000000" width="221" height="82"></rect>
-                        </a>
-                    </g>
-                    <g class="hover_group" opacity="1">
-                        <a xlink:href="#" data-toggle="modal" data-target="#comingSoon">>
-                            <rect x="1265" y="40" opacity="0.5" fill="#000000" width="221" height="82"></rect>
+                        <a class="clickable" data-toggle="modal" data-target="#comingSoon">
+                            <rect x="1134" y="45" opacity="0.5" fill="#000000" width="216" height="78"></rect>
                         </a>
                     </g>
                 </svg>
@@ -209,7 +210,7 @@
     </div>
 </div>
 
-<div class="modal" id="Twist180">
+<div class="modal" id="twist180">
     <div class="modal-dialog">
         <div class="modal-content">
 
@@ -255,7 +256,7 @@
     </div>
 </div>
 
-<div class="modal" id="Unispin180">
+<div class="modal" id="unispin180">
     <div class="modal-dialog">
         <div class="modal-content">
 
@@ -508,6 +509,47 @@
                 <div class="form-check">
                     <label class="form-check-label">
                         <input type="checkbox" class="form-check-input" name="streetUniX" id="streetUniX">Check out <a target="_blank" rel="noopener noreferrer" href="https://daffodil.itch.io/street-uni-x">Steet Uni X</a>.
+                    </label>
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="snappyFlips">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Snapping Bigger Flips</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h4>Video</h4>
+                <p>
+                    <div class="vid-container">
+                        <iframe src="//www.youtube.com/embed/mFnN0zV38Ds"
+                        frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+                <h4>Homework</h4>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="doubleflip" id="doubleflip">Doubleflip.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="backflip" id="backflip">Backflip.
                     </label>
                 </div>
             </div>
