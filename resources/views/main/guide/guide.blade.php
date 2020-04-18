@@ -45,10 +45,10 @@
             <p>
                 There's plenty of unicyclists on every social media platform out there. Find your preferred platform here and ask for help!
                 <ul>
-                    <li><a href="https://discord.gg/RXgdcTw">Discord</a></li>
-                    <li><a href="https://www.reddit.com/r/unicycling/">Reddit</a></li>
-                    <li><a href="https://www.facebook.com/groups/115835695144753/">Facebook</a></li>
-                    <li><a href="http://unicyclist.com/forums/">Unicyclist.com Forum</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/RXgdcTw">Discord</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/unicycling/">Reddit</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/groups/115835695144753/">Facebook</a></li>
+                    <li><a target="_blank" rel="noopener noreferrer" href="http://unicyclist.com/forums/">Unicyclist.com Forum</a></li>
                 </ul>
                 I recommend Discord as I own the Discord server myself, and will respond fairly quickly if you need help. However, it can be hard to get used to so go ahead and use whatever platform you're most comfortable with!
             </p>
