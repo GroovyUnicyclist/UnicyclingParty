@@ -66,9 +66,9 @@
                             <rect x="384" y="411" opacity="0.5" fill="#000000" width="216" height="78"></rect>
                         </a>
                     </g>
-                    <g class="hover_group" opacity="1">
-                        <a class="clickable" data-toggle="modal" data-target="#comingSoon">
-                            <rect x="636" y="412" opacity="0.5" fill="#000000" width="216" height="77"></rect>
+                    <g class="hover_group" opacity="0">
+                        <a class="clickable" data-toggle="modal" data-target="#twist360">
+                            <rect x="636" y="412" width="216" height="77"></rect>
                         </a>
                     </g>
                     <g class="hover_group" opacity="1">
@@ -550,6 +550,52 @@
                 <div class="form-check">
                     <label class="form-check-label">
                         <input type="checkbox" class="form-check-input" name="backflip" id="backflip">Backflip.
+                    </label>
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="twist360">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">360 Twists & Twist Variations</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h4>Video</h4>
+                <p>
+                    <div class="vid-container">
+                        <iframe src="//www.youtube.com/embed/uj9AadpPjN0"
+                        frameborder="0" allowfullscreen class="video"></iframe>
+                    </div>
+                </p>
+                <h4>Homework</h4>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="360Oppo360" id="360Oppo360">360/Oppo 360.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="360Curb" id="360Curb">360 up/down an obstacle.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="fullCab" id="fullCab">Full cab.
                     </label>
                 </div>
             </div>
