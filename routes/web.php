@@ -18,6 +18,10 @@ Route::domain('osu.'.env('APP_URL'))->group( function() {
     Route::view('/Put/my/meme/in/Rob', 'osu.meme');
 });
 
+Route::domain('discord.'.env('APP_URL'))->group( function() {
+    Route::get('/', 'HomeController@discord')->name('discord');
+});
+
 Auth::routes(['register' => false]);
 
 Route::domain(env('APP_URL'))->group( function() {

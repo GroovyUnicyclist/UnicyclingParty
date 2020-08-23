@@ -31,4 +31,9 @@ class HomeController extends Controller
         return view('osu.sif');
         return view('osu.home');
     }
+
+    public function discord()
+    {
+        return view('discord.home');
+    }
 }
