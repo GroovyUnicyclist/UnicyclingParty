@@ -1,0 +1,76 @@
+:root {
+    --blurple: #7289da;
+    --white: #ffffff;
+    --greyple: #99aab5;
+    --dark: #2c2f33;
+    --notblack: #23272a;
+    --black: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+    iframe {
+        width: 100%;
+        height: auto
+    }
+}
+@media only screen and (min-width: 768px) {
+    .site-switch {
+        border-left: 1px solid white
+    }
+}
+.bg-blue {
+    background-color: rgb(39, 116, 218) !important
+}
+.bg-gray {
+    background-color: #666666 !important
+}
+
+.bg-dark {
+    background-color: var(--dark) !important
+}
+
+.bg-blurple {
+    background-color: var(--blurple) !important
+}
+
+.bg-notblack {
+    background-color: var(--notblack) !important
+}
+
+.navbar-brand {
+    font-size: 1.75rem
+}
+.nav-item {
+    display: flex;
+    align-items: center
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: hsla(0, 0%, 100%, 1);
+}
+.vid-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+a {
+    color: #7289da;
+}
+a:hover {
+    color: #3656c9;
+}

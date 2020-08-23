@@ -13,15 +13,15 @@
     <h3>Who</h3>
     <p>Any OSU student may join Unicycle Club. <b>No experience or unicycle is required.</b> We have lots of extras!</p>
     <h3>What</h3>
-    <p>If you've never unicycled before, show up at any meeting to get <b>free lessons.</b> Just bring yourself and a little determination and you're good to go!</p>
+    <p>Join the <a href="{{ route('discord') }}">Discord</a> to participate in club activities and learn about unicycling! Unicycle rentals and lessons available absolutely free!</p>
     <h3>Where</h3>
-    <p>Lincoln Tower Park Tennis/Basketball Courts (Just outside the RPAC). Join the mailing list to get updates in case of inclement weather.</p>
+    <p><b>Online!</b> Until the pandemic dies down, Unicycle Club will be conducted 100% virtually on <a href="{{ route('discord') }}">Discord</a>.</p>
     <h3>When</h3>
-    <p>Unicycle Club meets <b>every Saturday from 2-4pm.</b> You can come late or leave early if you want as well!</p>
+    <p><b>Whenever you want!</b> Learn at your own pace, and ask questions in <a href="{{ route('discord') }}">Discord</a> to get help from other riders from around the world as well as your fellow club members!</p>
     <h3>Why</h3>
     <p>Along with being a great form of exercise, unicycling is lots of fun, and once you learn how to unicycle, you will feel good having learned a new skill. It's great exercise for the mind and the body!</p>
     <h3>Questions?</h3>
-    <p>Email <a href="mailto:braun.368@osu.edu">Nick Braun</a> or ask in the GroupMe!</p>
+    <p>Email <a href="mailto:braun.368@osu.edu">Nick Braun</a> or ask in the GroupMe or <a href="{{ route('discord') }}">Discord</a>!</p>
     <hr>
     <div class="row" style="justify-content: center">
         <div id="pictures" class="carousel slide" data-ride="carousel">

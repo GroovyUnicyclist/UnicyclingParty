@@ -1,9 +1,9 @@
-@extends('main.layouts.app')
+@extends('discord.layouts.app')
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <div class="card">
+                <div class="card bg-notblack text-white">
                     <div class="card-body p-5">
                         @yield('body')
                     </div>
