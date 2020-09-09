@@ -1,17 +1,53 @@
 @extends('discord.layouts.page')
 
 @section('body')
-<h1>The Unicycling Discord</h1>
-<h3>Learn from and chat with unicyclists from around the world!</h3>
-<hr>
-    <div class="row">
-        <p>More info coming soon...</p>
+    <h1>The Unicycling Discord</h1>
+    <h3>Learn from and chat with unicyclists from around the world!</h3>
+    <hr>
+    <p>Click the button to join!</p>
+    <a target="_blank" rel="noopener noreferrer" href="{{ route('invite') }}" class="btn btn-dark" style="background-color:#7289DA; border-color:#7289DA; display: inline-flex; align-items: center; ">
+        <i class="fab fa-discord fa-4x"></i><span style="margin-left:1rem; font-size: 2rem">Join Today!</span>
+    </a>
+    {{-- <div class="col-md-6">
+        <div class="card bg-notblack text-white" style="margin-bottom:20px">
+            <div class="card-header">
+                <h4 style="margin:0">
+                    <div class="row justify-content-center" style="align-items: center; flex-wrap: nowrap">
+                        <div class="div-sqr"><i class="fas fa-question icon-sqr"></i></div>
+                        New to Unicycling?
+                    </div>
+                </h4>
+            </div>
+            <div class="card-body">
+                <h5 style="text-align:center">Check out the <a href="{{ route('faq') }}">FAQ</a>!</h5>
+            </div>
+        </div>
     </div>
-    <div id="osu-collapsable" class="row">
+    <div class="col-md-6">
+        <div class="card bg-notblack text-white" style="margin-bottom:20px">
+            <div class="card-header">
+                <h4 style="margin:0">
+                    <div class="row justify-content-center" style="align-items: center; flex-wrap: nowrap">
+                        <div class="div-sqr">
+                            <i class="fas fa-book-open icon-sqr"></i>
+                        </div>
+                        Need help getting started?
+                    </div>
+                </h4>
+            </div>
+            <div class="card-body">
+                <h5 style="text-align:center">Follow the <a href="{{ route('guide') }}">Guide</a>!</h5>
+            </div>
+        </div>
+    </div> --}}
+    <hr>
+    <h3>Optional:</h3>
+    <p>Part of Unicycle Club at OSU? Click the button below to get verified once you join the server!</p>
+    <div id="osu-collapsable" class="row" style="margin:0">
         <div class="card bg-dark" style="border:none">
             <a class="card-header" data-toggle="collapse" href="#osu">
                 <div class="row" style="align-items: center; flex-wrap: nowrap">
-                    Part of Unicycle Club at OSU? Get Verified!
+                    OSU Verification
                 </div>
             </a>
             <div id="osu" class="collapse" data-parent="#osu-collapsable">
@@ -20,44 +56,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <hr>
-    <div class="row">
-        <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/8BAb7Cf" class="btn btn-dark" style="background-color:#7289DA; border-color:#7289DA; display: inline-flex; align-items: center; ">
-            <i class="fab fa-discord fa-4x"></i><span style="margin-left:1rem; font-size: 2rem">Join Today!</span>
-        </a>
-        {{-- <div class="col-md-6">
-            <div class="card bg-notblack text-white" style="margin-bottom:20px">
-                <div class="card-header">
-                    <h4 style="margin:0">
-                        <div class="row justify-content-center" style="align-items: center; flex-wrap: nowrap">
-                            <div class="div-sqr"><i class="fas fa-question icon-sqr"></i></div>
-                            New to Unicycling?
-                        </div>
-                    </h4>
-                </div>
-                <div class="card-body">
-                    <h5 style="text-align:center">Check out the <a href="{{ route('faq') }}">FAQ</a>!</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="card bg-notblack text-white" style="margin-bottom:20px">
-                <div class="card-header">
-                    <h4 style="margin:0">
-                        <div class="row justify-content-center" style="align-items: center; flex-wrap: nowrap">
-                            <div class="div-sqr">
-                                <i class="fas fa-book-open icon-sqr"></i>
-                            </div>
-                            Need help getting started?
-                        </div>
-                    </h4>
-                </div>
-                <div class="card-body">
-                    <h5 style="text-align:center">Follow the <a href="{{ route('guide') }}">Guide</a>!</h5>
-                </div>
-            </div>
-        </div> --}}
     </div>
 @endsection
 

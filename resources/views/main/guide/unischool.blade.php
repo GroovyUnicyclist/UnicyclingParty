@@ -3,7 +3,7 @@
 @section('body')
     <h1>Eli Brill's Unicycle School</h1>
     <hr>
-    <p>Welcome to Eli Brill's Unicycle School! Soon you will be able to use this page to save your progress as you complete the homework for each video in this series. You can also join the <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/8BAb7Cf">Unicycling Discord Server</a> to get help homework help and submit videos of yourself completing them in order to gain recognition for completing each homework assignment!</p>
+    <p>Welcome to Eli Brill's Unicycle School! Soon you will be able to use this page to save your progress as you complete the homework for each video in this series. You can also join the <a href="{{ route('discord') }}">Unicycling Discord Server</a> to get help homework help and submit videos of yourself completing them in order to gain recognition for completing each homework assignment!</p>
     <p>Be sure to <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCgHpSZa5KBTj_GK1fpsmK1w?sub_confirmation=1"> subscribe to Eli</a> and <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?list=PLdKARu4d6vwXYhdoLgOQNKOfvj8NVhnMa&v=LUNv6B6JBJ8">check out the full series</a>!</p>
     <div class="row">
         <div class="col-lg-12">
