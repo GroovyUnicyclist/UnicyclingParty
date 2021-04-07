@@ -21,7 +21,7 @@ Route::domain('osu.'.env('APP_URL'))->group( function() {
 Route::domain('discord.'.env('APP_URL'))->group( function() {
     Route::get('/', 'HomeController@discord')->name('discord');
 
-    Route::redirect('/invite', 'https://discord.gg/8BAb7Cf')->name('invite');
+    Route::redirect('/invite', 'https://discord.gg/3HtAKnskdA')->name('invite');
 });
 
 Auth::routes(['register' => false]);
